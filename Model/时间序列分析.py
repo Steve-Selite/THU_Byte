@@ -22,14 +22,13 @@ pandas2ri.activate()
 from rpy2.robjects import globalenv
 importr("rugarch")
 
+# 数据预处理
 def data_process(n, fund, index, rel):
     pos = list(fund.iloc[1, :].values).index(n)
     fund_value = fund.iloc[3:245, pos].to_frame()
     index_name = rel[rel['证券名称'] == n]['主要跟踪标的代码\n第1名'].values
     pos1 = list(index.iloc[0, :].values).index(index_name)
     index_value = index.iloc[3:304, pos1].to_frame()
-    fund_value.index = fund.iloc[3:245, 0]
-    index_value.index = index.iloc[3:304, 0]
     fund_value.columns = ['基金收盘价']
     index_value.columns = ['基准收盘价']
     data = fund_value.join(index_value, how='inner')
@@ -39,6 +38,7 @@ def data_process(n, fund, index, rel):
     data['基准收益率'] = data['基准收盘价的log'].diff() * 100
     return data.iloc[1:,-2:]
 
+# 数据时间序列检验
 def check(data):
     adf_fund = ADF(data['基金收益率'])
     adf_index = ADF(data['基准收益率'])
@@ -101,9 +101,9 @@ if __name__ == "__main__":
                             """#
                     results = r(rscript)
                     if results[3] > 0 and results[-1] > 0:
-                        results_piaoyi[d].append([n, results[3], results[-1], '是'])
-                    else:
                         results_piaoyi[d].append([n, results[3], results[-1], '否'])
+                    else:
+                        results_piaoyi[d].append([n, results[3], results[-1], '是'])
     writer = pd.ExcelWriter('../result/timeseries.xlsx')
     for d in date:
         result = pd.DataFrame(results_piaoyi[d], columns=['基金名称', '收益率维度', '风险维度', '是否漂移'])
