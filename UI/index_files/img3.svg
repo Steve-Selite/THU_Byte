@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="48px" viewBox="0 0 47 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>icon-advisory@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="79.5469562%" y1="9.47559897%" x2="32.6773932%" y2="72.7941843%" id="linearGradient-1">
+            <stop stop-color="#81E6FF" offset="0%"></stop>
+            <stop stop-color="#2D94FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#979797" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.380945592" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-16.8005357%" y1="99.9584593%" x2="99.7317978%" y2="23.6763065%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.277788496" offset="0%"></stop>
+            <stop stop-color="#00CDFF" stop-opacity="0.6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="43.2446402%" y1="57.6313055%" x2="3.76896396%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.850590206" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-16.8005357%" y1="76.5122786%" x2="100%" y2="35.9372017%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" stop-opacity="0.277788496" offset="0%"></stop>
+            <stop stop-color="#B9FBEB" stop-opacity="0.6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="43.2446402%" y1="54.0498306%" x2="3.76896396%" y2="76.5343237%" id="linearGradient-6">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.850590206" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="政府政策-home" transform="translate(-853.000000, -1561.000000)">
+            <g id="编组-8备份" transform="translate(92.000000, 1521.000000)">
+                <g id="编组-5备份-2" transform="translate(628.000000, 0.000000)">
+                    <g id="icon-advisory" transform="translate(117.000000, 24.000000)">
+                        <rect id="矩形" x="0" y="0" width="80" height="80"></rect>
+                        <g id="zx" transform="translate(16.000000, 16.000000)" fill-rule="nonzero" stroke-width="0.571428571">
+                            <circle id="椭圆形" stroke="url(#linearGradient-2)" fill="url(#linearGradient-1)" cx="21.2729126" cy="26.7325894" r="20.8571429"></circle>
+                            <path d="M21.1878697,0.355845314 C27.9834386,0.795249714 34.0891566,3.72121274 38.6085191,8.23001851 C43.133002,12.7439327 46.0675766,18.8443134 46.512432,25.6244993 C46.4055343,26.0584305 46.1566686,26.4364067 45.818144,26.7067675 C45.4763358,26.9797507 45.0429202,27.1428571 44.5714286,27.1428571 L21.7142857,27.1428571 C21.162001,27.1428571 20.662001,26.9189995 20.3000722,26.5570707 C19.9381433,26.1951419 19.7142857,25.6951419 19.7142857,25.1428571 L19.7142857,2.28571429 C19.7142857,1.8221996 19.8719153,1.39548263 20.1366045,1.05635109 C20.3984755,0.720830229 20.7649661,0.470845086 21.1878697,0.355845314 Z" id="形状结合" stroke="url(#linearGradient-4)" fill="url(#linearGradient-3)"></path>
+                            <path d="M21.7739647,30.0212652 L41.8976107,30.7669881 C42.45839,30.7928606 42.9524874,31.0388401 43.3002103,31.4167753 C43.6483481,31.7951614 43.8495323,32.3056025 43.8240014,32.8580513 C43.6912134,35.7315461 42.9076287,38.4562922 41.4740161,41.0325059 C39.9641646,43.7457214 37.8685289,45.7260232 35.1850302,46.9711388 C34.7802866,47.1589357 34.3378209,47.2013009 33.9235342,47.1123796 C33.5092473,47.0234582 33.1231395,46.8032501 32.8311119,46.4659003 L32.8311119,46.4659003 L20.6409631,32.3838454 C20.4042597,32.1104057 20.280077,31.7573653 20.2934701,31.3959536 C20.3080789,31.0017351 20.4810933,30.6507586 20.7490101,30.4019889 C21.016927,30.1532193 21.3797462,30.0066564 21.7739647,30.0212652 L21.7739647,30.0212652 Z" id="路径-2" stroke="url(#linearGradient-6)" fill="url(#linearGradient-5)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

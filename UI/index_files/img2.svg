@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="48px" viewBox="0 0 39 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>icon-media@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="79.5469562%" y1="24.9077614%" x2="32.6773932%" y2="64.1138943%" id="linearGradient-1">
+            <stop stop-color="#81E6FF" offset="0%"></stop>
+            <stop stop-color="#2D94FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="19.0405805%" x2="0%" y2="80.9594195%" id="linearGradient-2">
+            <stop stop-color="#979797" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.380945592" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="79.5469562%" y1="18.4376552%" x2="32.6773932%" y2="67.7532027%" id="linearGradient-3">
+            <stop stop-color="#81E6FF" offset="0%"></stop>
+            <stop stop-color="#2D94FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="11.0576047%" x2="0%" y2="88.9423953%" id="linearGradient-4">
+            <stop stop-color="#979797" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.380945592" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="79.5469562%" y1="48.379024%" x2="32.6773932%" y2="50.9117674%" id="linearGradient-5">
+            <stop stop-color="#81E6FF" offset="0%"></stop>
+            <stop stop-color="#2D94FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="48%" x2="0%" y2="52%" id="linearGradient-6">
+            <stop stop-color="#979797" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.380945592" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="15.918094%" y1="100%" x2="75.5102041%" y2="23.4787068%" id="linearGradient-7">
+            <stop stop-color="#FFFFFF" stop-opacity="0.277788496" offset="0%"></stop>
+            <stop stop-color="#B9E0FB" stop-opacity="0.6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="46.5533879%" y1="57.637651%" x2="50%" y2="0%" id="linearGradient-8">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.850590206" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-16.8005357%" y1="51.3888889%" x2="100%" y2="49.2632974%" id="linearGradient-9">
+            <stop stop-color="#FFFFFF" stop-opacity="0.277788496" offset="0%"></stop>
+            <stop stop-color="#B9E0FB" stop-opacity="0.6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="43.2446402%" y1="50.212157%" x2="50%" y2="48.6111111%" id="linearGradient-10">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.850590206" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="政府政策-home" transform="translate(-547.000000, -1561.000000)">
+            <g id="编组-8备份" transform="translate(92.000000, 1521.000000)">
+                <g id="icon-media" transform="translate(434.000000, 24.000000)">
+                    <rect id="矩形" x="0" y="0" width="80" height="80"></rect>
+                    <g id="编组-6" transform="translate(21.000000, 14.000000)" fill-rule="nonzero">
+                        <path d="M22.9754403,9.69059248 L43.32191,41.7112662 C44.1736381,43.0516906 43.7774714,44.8287814 42.4370469,45.6805094 C41.9760168,45.9734557 41.441086,46.1290323 40.8948568,46.1290323 L0.201917369,46.1290323 C-1.38621942,46.1290323 -2.67365867,44.841593 -2.67365867,43.2534562 C-2.67365867,42.7072271 -2.51808208,42.1722963 -2.22513585,41.7112662 L18.1213339,9.69059248 C18.9730619,8.350168 20.7501527,7.95400127 22.0905772,8.80572933 C22.4469121,9.03215051 22.7490191,9.33425752 22.9754403,9.69059248 Z" id="三角形备份" stroke="url(#linearGradient-2)" stroke-width="0.575115207" fill="url(#linearGradient-1)" transform="translate(20.548387, 26.000000) rotate(-270.000000) translate(-20.548387, -26.000000) "></path>
+                        <path d="M5.87096774,15.9786211 C5.87096774,15.4915905 6.26619153,15.0967742 6.73707631,15.0967742 L30.1661495,15.0967742 C30.6444881,15.0967742 31.0322581,15.4841439 31.0322581,15.9639843 L31.0322581,32.1125882 L22.8074361,37.3022067 L6.73413403,36.9235598 C6.25742045,36.9123297 5.87096774,36.5061191 5.87096774,36.0213789 L5.87096774,15.9786211 Z" id="news-body" stroke="url(#linearGradient-4)" stroke-width="0.575115207" fill-opacity="0.62" fill="url(#linearGradient-3)"></path>
+                        <rect id="news-header" stroke="url(#linearGradient-6)" stroke-width="0.575115207" fill-opacity="0.65" fill="url(#linearGradient-5)" x="5.87096774" y="12.5806452" width="25.1612903" height="5.03225806"></rect>
+                        <rect id="left-rect" stroke="url(#linearGradient-8)" stroke-width="0.541666667" fill="url(#linearGradient-7)" x="10.0645161" y="22.6451613" width="4.19354839" height="5.87096774"></rect>
+                        <rect id="top-bar" stroke="url(#linearGradient-10)" stroke-width="0.541666667" fill="url(#linearGradient-9)" x="17.6129032" y="22.6451613" width="10.0645161" height="1.67741935"></rect>
+                        <rect id="bottom-bar" stroke="url(#linearGradient-10)" stroke-width="0.541666667" fill="url(#linearGradient-9)" x="17.6129032" y="26.8387097" width="10.0645161" height="1.67741935"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
