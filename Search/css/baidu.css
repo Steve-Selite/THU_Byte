@@ -48,10 +48,11 @@ section input[type=text]{
         padding-left: 0.5em;
 }
 section input[type=button]{
-        background-color: rgba(13, 0, 255, 0.445);
+        background-color: rgba(13, 0, 255, 0.147);
         width: 6em;
         height: 28px;
         color: white;
+        font-weight: bold;
 }
 section .center,.center_left,.center_right{display: inline-block;}
 .center_left{border: 0px solid rgb(255, 255, 255);border-right: 0px;float: left;height: 28px;line-height: 28px;}
