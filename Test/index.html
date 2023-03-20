@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>THU_Byte Search</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<!--<link rel="stylesheet" href="css/input.css" type="text/css" />-->
+<link rel="icon"href="img/pic1.svg">
+<link rel="stylesheet" href="css/baidu.css">
+
+</head>
+
+<script src="js/vue.js"></script>
+<script src="js/vue-resource.js"></script>
+
+<style>
+    body {
+        background-image: url(img/3.jpg);
+        /*background-color: #020069; !* 浏览器不支持渐变时显示 *!*/
+        /*background-image: linear-gradient(#020049, #02007d);*/
+        /*background-image:linear-gradient(to right,#0d0aba,#1E4794);*/
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 150%;
+        margin: 0px;
+        font-family: Arial;
+        overflow: hidden
+    }
+</style>
+
+<script>
+    window.onload=function(){
+        new Vue({
+            el:'#box',
+            data:{
+                myData:[],
+                t1:'',
+                now:-1,
+                isShow:true,
+            },
+            methods:{
+                get:function(ev){
+                    if(ev.keyCode==38 || ev.keyCode==40)return;
+
+                    if(ev.keyCode==13){
+                        window.open('http://183.173.188.226/WsodWHFqfPjsIIab/screencast');
+                        this.t1='';
+                    }
+
+                    this.$http.jsonp('http://183.173.188.226/WsodWHFqfPjsIIab/screencast',{
+                        wd:this.t1
+                    },{
+                        jsonp:'cb'
+                    }).then(function(res){
+                        this.myData=res.data.s;
+                        this.isShow='true'
+                    },function(){
+
+                    });
+                },
+                search:function(){
+                    window.open('http://183.173.188.226/WsodWHFqfPjsIIab/screencast');
+                    this.t1='';
+                },
+                changeDown:function(){
+                    this.now++;
+                    if(this.now==this.myData.length)this.now=-1;
+                    this.t1=this.myData[this.now];
+                },
+                changeUp:function(){
+                    this.now--;
+                    if(this.now==-2)this.now=this.myData.length-1;
+                    this.t1=this.myData[this.now];
+                },
+                clk:function(e){
+                    var index=e.target.innerText;
+                    this.t1=index;
+                    var input=document.getElementById("input");
+//                    console.log(input)
+                    input.style.color="blue";
+                    input.focus()
+                    this.isShow=false;
+                    var boxUl=document.getElementById("boxUl");
+                    console.log(boxUl);
+
+                }
+            }
+        });
+
+
+    };
+</script>
+
+<body  >
+<header>
+    <nav>
+        <ul class="nmb">
+            <li><a href="https://steve-selite.github.io/THU_Byte/UI/">关于我们</a></li>
+            <li><a href="#">打印报告</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <img src="img/logo3.png" title="基金诊断中" alt="数据加载失败">
+            <div id="box" >
+                <sapn class="center">
+                <span class="center_left">
+                    <input id="input" type="text" v-model="t1" @keydown="get($event)" @keydown.down="changeDown()" @keydown.up.prevent="changeUp()" value="请输入你想要搜索的基金或代码" onfocus="clearText(this)">
+                    <ul id="boxUl" v-if="isShow">
+                        <li v-text="value" v-for="value in myData" :class="{gray:$index==now}" @click="clk($event)" >
+                            <!--{{value}}-->
+                        </li>
+                    </ul>
+                </span>
+                <span class="center_right">
+                    <input type="button" value="开始诊断！" @click="search()">
+                </span>
+                </sapn>
+
+            </div>
+    </section>
+    <div id="backgroundColor"></div>
+<script>
+    function clearText(elm){
+        elm.value="";
+        elm.onfocus=null;
+    }
+    function changeText(elm){
+        elm.value="点击下"
+    }
+    function showLogin(){
+        document.getElementById("backgroundColor").style.display="block";
+        document.getElementById("loginForm").style.display="block";
+    }
+
+    function hideLogin(){
+        document.getElementById("backgroundColor").style.display="none";
+        document.getElementById("loginForm").style.display="none";
+    }
+    function login() {
+        var username = document.getElementById("userName")
+        var password = document.getElementById("userPassword")
+        if (username.value.trim().length==0) {
+            username.style.borderColor = "red"
+            return;
+        }
+        if (password.value.trim().length==0) {
+            password.style.borderColor = "red"
+            return;
+        }
+        window.location.href="1215text.html?username="+username.value;
+    }
+</script>
+
+
+<div class="footer">
+    <div id="div-1" style="color:rgb(255, 255, 255);text-align:center;width:100%;font-size:20px">
+        <p> . </p>
+        <p> . </p>
+        <p> . </p>       
+        <p>THU_Byte</p>
+        <p>Only One Clike, With Full Diagnosis</p>
+        <a class="beian" target="_blank" ></a>
+    </div>
+
+</div>
+
+</body>
+</html>
